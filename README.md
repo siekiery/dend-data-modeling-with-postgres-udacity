@@ -21,9 +21,9 @@ This database not only is recording all activity on the app. It would allow for 
 Use terminal to run create_tables.py and etl.py.
 
 ## Files description
-create_tables.py - It restores sparkifydb database to default (empty) state. It drops all tables and the sparkifydb and recreates them.
-etl.py - a pipeline where the json data is processed and inserted into tables according to db schema.
-sql_queries.py - all SQL queries are stored here
-etl.ipynb - Notebook where the data was examined and the correct etl code was developed
-test.ipynb - Queries that allow to inspect and QC the database
-data - directory containing song_data and log_data json files
+* create_tables.py - It restores sparkifydb database to default (empty) state. It drops all tables and the sparkifydb and recreates them.
+* etl.py - a pipeline where the json data is processed and inserted into tables according to db schema.
+* sql_queries.py - all SQL queries are stored here
+* etl.ipynb - Notebook where the data was examined and the correct etl code was developed
+* test.ipynb - Queries that allow to inspect and QC the database
+* data - directory containing song_data and log_data json files
